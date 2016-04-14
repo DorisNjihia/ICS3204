@@ -23,7 +23,8 @@ void render()
 	GLuint deltaX = x1 - x0;
 	GLuint deltaY = y1 - y0;
 	GLuint p0 = 2 * deltaY - deltaX;
-
+    
+	//first point
 	glVertex2d(x0, y0);
 	/*my for loop */
 
